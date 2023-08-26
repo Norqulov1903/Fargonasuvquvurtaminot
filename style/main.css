@@ -1,0 +1,453 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "open_sans_bold";
+    src: url(../OpenSans_Condensed-Bold.ttf);
+}
+@font-face {
+    font-family: "open_sans_light";
+    src: url("../OpenSans_Condensed-Light.ttf");
+}
+@font-face {
+    font-family:"mayriad" ;
+    src: url("../myriad/myriadpro-regular.otf");
+}
+@font-face {
+    font-family:"open _sans_italik" ;
+    src: url("../OpenSans_SemiCondensed-Italic.ttf");
+}
+@font-face {
+    font-family: "open_sans_regular";
+    src: url(../OpenSans_Condensed-Regular.ttf);
+}
+.sayt{
+    width: 1370px;
+    height: 2395px;
+    border: 1px solid black;
+    margin: auto;
+    background-color: #ff880c;
+}
+.clear{
+    clear: both;
+}
+.key{
+    width: 1370px;
+    height: 150px;
+    margin-top: 15px;
+    background-color: white;
+}
+.header{
+    width: 130px;
+    height: 150px;
+margin-left: 175px;
+    float: left;
+    text-align: center;
+ 
+}
+.smal {
+    margin-top: -30px;
+}
+.header2{
+    float: left;
+    width: 440px;
+    height: 150px;
+
+    margin-top: auto;
+  
+}
+.header2 h3 {
+    font-size: 40px;
+    font-weight: 900;
+    color: #ff880c;
+    margin-top: 25px;
+    font-family: "open_sans_bold";
+}
+.header2 h4{
+    color: #ff880c;
+    font-weight: 300;
+    font-size: 25px;
+    font-family: "open_sans_light";
+  
+}
+.header1{
+    float: right;
+    width: 600px;
+    position: relative;
+    height: 150px;
+    text-align: right;
+    background: url("../images/olov\ yaqin.png") no-repeat center center/cover;
+}
+.li{
+position: absolute;
+top: 47px;
+right: 225px;
+color: #fe9b37;
+}
+.hi{
+    position: absolute;
+    right: 395px;
+    top: 60px;
+    color: #fe9b37;
+}
+.header1 h5{
+    position:absolute;
+    right: 227px;
+    top: 30px;
+    font-size: 17px;
+    color: #fe9b37;
+    font-family: "open_sans_light";
+}
+.urta{
+     width: 1063px;
+     height: 55px;
+    
+     margin: auto;
+}
+.urta ul {
+    list-style: none;
+    height: 100%;
+    width: 100%;
+}
+.urta ul li{
+   float: left;
+   width: 176px;
+    height: 100%;
+}
+.urta ul li a{
+    display: block;
+    float: left;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 55px;
+    text-decoration: none;
+    
+    font-size: 21px;
+    color: white;
+    font-family:"mayriad" ;
+
+}
+.urta ul li a:hover{
+    color: white;
+    background-color: #ffc513;
+}
+.fa-magnifying-glass{
+    float: right;
+ line-height: 55px;
+    color: white;
+    font-size: 21px;
+    width: 176px;
+    height: 55px;
+
+
+}
+.fa-magnifying-glass:hover{
+    background:#ff880c;
+}
+.deg{
+    width: 1370px;
+    height: 440px;
+    position: relative;
+    background:url("../images/Теплый_дом.png") no-repeat center center/cover;
+}
+.jirt{
+    float: right;
+    width: 600px;
+height: 100px;
+font-size: 56px;
+font-family:"open _sans_italik" ;
+position: absolute;
+right: 50px;
+top: 150px;
+color: white;
+}
+.hello{
+    height: 266px;
+    width: 1370px;
+    background-color: white;
+}
+.card1{
+
+    float: left;
+    width: 680px;
+    height:266px ;
+    color: #fe9b37;
+    margin-left: 30px;
+}
+.card2{
+    float: left;
+
+    width: 320px;
+    height: 266px;
+    
+}
+
+.card3{
+    float: left;
+    width: 335px;
+    height: 266px;
+ 
+
+
+}
+.card3 img {
+    padding-top: 20px;
+}
+.fq{
+    width: 620px;
+    height: 240px;
+  
+    margin: auto;
+    margin-top: 15px;
+    position: relative;
+   
+}
+.fq h4{
+    margin-left: 35px;
+    font-family:"mayriad" ;
+    font-size: 31px;
+}
+.fq p {
+    text-indent: 35px;
+    font-family: "open_sans_regular";
+    font-size: 21px;
+}
+.fq button{
+    width: 135px;
+    height: 45px;
+    background-color: #ff880c;
+    color: white;
+    outline: none;
+    font-family: "open_sans_regular";
+    font-size: 17px;
+    position: absolute;
+    right: 100px;
+    bottom: 5px;
+}
+.bag{
+    width: 1370px;
+    height: 280px;
+
+}
+.icki{
+    width: 900px;
+    height: 280px;
+ 
+    margin: auto;
+    position: relative;
+  
+  
+}
+.card5{
+    width: 155px;
+    height: 155px;
+    border-radius: 50%;
+  
+
+    margin: auto;
+    margin-top: 30px;
+   background-color: white;
+  
+    
+}
+.card5 img {
+    position:absolute;
+    top: 55px;
+    left: 102px;
+    background-color: white;
+    
+}
+
+.onash{
+    width: 300px;
+    height: 280px;
+ 
+    text-align: center;
+    float: left;
+}
+.onash h3{
+    color: #ffc513;
+    font-family: "open_sans_light";
+    font-size: 25px;
+    padding-top: 5px;
+
+}
+.card6{
+    width: 155px;
+    height: 155px;
+    border-radius: 50%;
+   
+    float: left;
+    position: absolute;
+    left: 70px;
+    top: 35px;
+    background-color: white;
+}
+.onash2{
+   width: 300px;
+   height: 280px;
+   float: left;
+   
+   position: relative;
+
+}
+.onash2 h3 {
+color:white;
+font-family: "open_sans_light";
+font-size: 25px;
+text-align: center;
+position: absolute;
+bottom: 55px;
+left: 110px;
+}
+.card6 img{
+    position:  absolute;
+    left: 30px;
+    top:25px;
+}
+.onash3{
+    width: 290px;
+    height: 280px;
+   
+    float: left;
+    position: relative;
+}
+.card7{
+    width: 155px;
+    height: 155px;
+    border-radius: 50%;
+
+    margin: auto;
+    position: absolute;
+    top: 35px;
+    left: 65px;
+    background-color: white;
+    
+}
+.card7 img{
+    position: absolute;
+    top: 33px;
+    left: 30px;
+}
+.onash3 h3{
+    position: absolute;
+    top: 196px;
+    left: 70px;
+    font-family: "open_sans_light";
+font-size: 25px;
+color: white;
+}
+.clear{
+    clear: both;
+}
+.pastku{
+    width: 1370px;
+    height: 645px;
+    position: relative;
+    
+    background: url("../images/oila.png") no-repeat right center/ contain ,url("../images/uy.png") no-repeat center center / cover;
+}
+.pastku h2{
+position: absolute;
+bottom: 190px;
+left: 60PX;
+color: white;
+font-style: italic;
+font-size: 56PX;
+font-family:"open _sans_italik" ;
+}  
+.hid{
+    width: 1370px;
+    height: 545px;
+margin: auto;
+    background: url("../images/pastki.png") no-repeat center center/ cover,url("../images/BOLLAR.png") no-repeat center center/cover;
+position: relative;
+}
+
+.fqw{
+width: 400px;
+height: 300px;
+
+float: left;
+margin-left: 120px;
+}
+.fqw1{
+    width: 300px;
+    height: 300px;
+ 
+    float: left;
+    margin-left: 50px;
+}
+.fqw2{
+        width: 300px;
+        height: 300px;
+       
+        float: left;
+        margin-left: 70px;
+    }
+.good{
+    margin-top: -70px;
+    margin-left: 60px;
+    color: white;
+  font-weight: 900;
+    font-family: "open_sans_bold";
+    font-size: 30px;
+}
+.fqw h2{
+    font-family: "open_sans_light";
+    margin-left: 60px;
+    color: wheat;
+    font-size: 22px;
+}
+.fqw img {
+    margin-top: 30px;
+}
+.fqw1 img {
+    margin-top: 30px
+}
+.h2{
+    font-family: "open_sans_light";
+    color: white;
+    margin-top: -35px;
+    margin-left: 60px;
+    font-weight: 900;
+    font-size: 22px;
+}
+.fqw1 h2{
+  color: white;
+    margin-left: 60px;
+    font-family: "open_sans_light";
+    font-size: 22px;
+}
+
+.fqw2 img {
+    background-color: white;
+    margin-top: 30px;
+}
+.fqw2 h2{
+    
+    margin-left: 60px;
+    font-weight: 900;
+    font-size: 22px;
+    font-family: "open_sans_light";
+    color: white;
+} 
+.juj{
+    margin-top: -50px;
+    font-family: "open_sans_bold";
+    font-size: 22px;
+
+}
+.hid h3{
+    position: absolute;
+    bottom: 10px;
+    left: 480px;
+    color: white;
+    font-size: 22px;
+    font-family:"mayriad" ;
+}
+.li font{
+    font-size: 25px;
+}
